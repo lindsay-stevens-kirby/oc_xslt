@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"
+         xmlns:odm="http://www.cdisc.org/ns/odm/v1.3"
+         xmlns:OpenClinica="http://www.openclinica.org/ns/odm_ext_v130/v3.1">
+   <fo:layout-master-set>
+      <fo:simple-page-master master-name="main" page-height="29.7cm" page-width="21cm"
+                             font-family="sans-serif"
+                             margin="2cm">
+         <fo:region-body margin-top="2.5cm"/>
+         <fo:region-before extent="2cm"/>
+      </fo:simple-page-master>
+   </fo:layout-master-set>
+   <fo:bookmark-tree>
+      <fo:bookmark starting-state="hide"
+                   internal-destination="Cambridge Center for Surgical Oncology">
+         <fo:bookmark-title>Cambridge Center for Surgical Oncology</fo:bookmark-title>
+         <fo:bookmark starting-state="hide" internal-destination="CAM105">
+            <fo:bookmark-title>CAM105</fo:bookmark-title>
+            <fo:bookmark internal-destination="000000007">
+               <fo:bookmark-title>000000007</fo:bookmark-title>
+            </fo:bookmark>
+         </fo:bookmark>
+      </fo:bookmark>
+      <fo:bookmark starting-state="hide"
+                   internal-destination="Somerville Cancer Research Consortium">
+         <fo:bookmark-title>Somerville Cancer Research Consortium</fo:bookmark-title>
+         <fo:bookmark starting-state="hide" internal-destination="SCRC005">
+            <fo:bookmark-title>SCRC005</fo:bookmark-title>
+            <fo:bookmark internal-destination="000000001">
+               <fo:bookmark-title>000000001</fo:bookmark-title>
+            </fo:bookmark>
+         </fo:bookmark>
+         <fo:bookmark starting-state="hide" internal-destination="SCRC011">
+            <fo:bookmark-title>SCRC011</fo:bookmark-title>
+            <fo:bookmark internal-destination="000000999">
+               <fo:bookmark-title>000000999</fo:bookmark-title>
+            </fo:bookmark>
+         </fo:bookmark>
+      </fo:bookmark>
+   </fo:bookmark-tree>
+   <fo:page-sequence master-reference="main">
+      <fo:static-content flow-name="xsl-region-before" font-size="14pt" font-weight="bold">
+         <fo:block>Docetaxel in Patients With Completely Resected NSCLC  Queries</fo:block>
+         <fo:block>
+            <fo:retrieve-marker retrieve-class-name="mark-site-name"/>
+         </fo:block>
+         <fo:block>
+            <fo:retrieve-marker retrieve-class-name="mark-subject-id"/>
+         </fo:block>
+      </fo:static-content>
+      <fo:flow flow-name="xsl-region-body" font-size="11pt">
+         <fo:block page-break-after="always" id="Cambridge Center for Surgical Oncology">
+            <fo:marker marker-class-name="mark-site-name">Cambridge Center for Surgical Oncology</fo:marker>
+            <fo:block page-break-after="always" id="CAM105">
+               <fo:marker marker-class-name="mark-subject-id">CAM105</fo:marker>
+               <fo:table table-layout="fixed" width="100%" keep-together.within-page="always"
+                         margin-bottom="0.5cm"
+                         border-width="1">
+                  <fo:table-column column-number="1" column-width="25%"/>
+                  <fo:table-column column-number="2" column-width="75%"/>
+                  <fo:table-body>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold" id="000000007">Note ID</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>000000007</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Entity Type</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>Item</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Event Name</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>Initial Treatment</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Event Repeat</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block/>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Form Name</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>Physical Exam - English</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Form Section</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>I Basic</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">ItemGroup Name</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>IG_PHYSI_UNGROUPED</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">ItemGroup Repeat</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block/>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Item Name</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>Pulse Rate</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Item Value</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>59</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Item Code List Label</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block/>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Note Status</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>New</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Note Description</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>Pulse was taken twice and was 59 BPM</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Detailed Notes</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>[Pulse rate ouf of expected range of 60-100(must be an integer)]</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row height="2cm">
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Site Response</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block/>
+                        </fo:table-cell>
+                     </fo:table-row>
+                  </fo:table-body>
+               </fo:table>
+            </fo:block>
+         </fo:block>
+         <fo:block page-break-after="always" id="Somerville Cancer Research Consortium">
+            <fo:marker marker-class-name="mark-site-name">Somerville Cancer Research Consortium</fo:marker>
+            <fo:block page-break-after="always" id="SCRC005">
+               <fo:marker marker-class-name="mark-subject-id">SCRC005</fo:marker>
+               <fo:table table-layout="fixed" width="100%" keep-together.within-page="always"
+                         margin-bottom="0.5cm"
+                         border-width="1">
+                  <fo:table-column column-number="1" column-width="25%"/>
+                  <fo:table-column column-number="2" column-width="75%"/>
+                  <fo:table-body>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold" id="000000001">Note ID</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>000000001</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Entity Type</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>Item</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Event Name</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>Registration Visit</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Event Repeat</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block/>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Form Name</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>Physical Exam - English</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Form Section</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>I Basic</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">ItemGroup Name</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>IG_PHYSI_UNGROUPED</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">ItemGroup Repeat</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block/>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Item Name</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>Pulse Rate</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Item Value</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>55</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Item Code List Label</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block/>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Note Status</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>New</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Note Description</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>Pulse rate is lower than expected</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Detailed Notes</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>[Pulse rate ouf of expected range of 60-100(must be an integer)]</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row height="2cm">
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Site Response</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block/>
+                        </fo:table-cell>
+                     </fo:table-row>
+                  </fo:table-body>
+               </fo:table>
+            </fo:block>
+            <fo:block page-break-after="always" id="SCRC011">
+               <fo:marker marker-class-name="mark-subject-id">SCRC011</fo:marker>
+               <fo:table table-layout="fixed" width="100%" keep-together.within-page="always"
+                         margin-bottom="0.5cm"
+                         border-width="1">
+                  <fo:table-column column-number="1" column-width="25%"/>
+                  <fo:table-column column-number="2" column-width="75%"/>
+                  <fo:table-body>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold" id="000000999">Note ID</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>000000999</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Entity Type</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>Item</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Event Name</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>Registration Visit</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Event Repeat</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block/>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Form Name</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>Physical Exam - English</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Form Section</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>II Body System</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">ItemGroup Name</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>IG_PHYSI_UNGROUPED</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">ItemGroup Repeat</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block/>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Item Name</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>Appearance</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Item Value</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>1</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Item Code List Label</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>Normal</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Note Status</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>New</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Note Description</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>TEST Pulse was taken twice and was 59 BPM</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Detailed Notes</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>[Pulse rate ouf of expected range of 60-100(must be an integer)]</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row height="2cm">
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Site Response</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block/>
+                        </fo:table-cell>
+                     </fo:table-row>
+                  </fo:table-body>
+               </fo:table>
+            </fo:block>
+         </fo:block>
+      </fo:flow>
+   </fo:page-sequence>
+</fo:root>

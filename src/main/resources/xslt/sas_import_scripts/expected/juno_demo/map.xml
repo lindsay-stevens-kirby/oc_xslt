@@ -1,0 +1,2666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SXLEMAP version="1.2">
+   <TABLE name="IG_COMPL_CD">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_COMPL_CD</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_COMPL_CD/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_COMPL_CD/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_COMPL_CD/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_COMPL_CD/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="CD_YN">
+         <PATH>/THEJUNOD/IG_COMPL_CD/I_COMPL_CD_YN</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="CD_WTHDR">
+         <PATH>/THEJUNOD/IG_COMPL_CD/I_COMPL_CD_WTHDR</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>2</LENGTH>
+      </COLUMN>
+      <COLUMN Name="WTHDR_SP">
+         <PATH>/THEJUNOD/IG_COMPL_CD/I_COMPL_WTHDR_SP</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="CD_MISS">
+         <PATH>/THEJUNOD/IG_COMPL_CD/I_COMPL_CD_MISS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>2</LENGTH>
+      </COLUMN>
+      <COLUMN Name="MISS_EV">
+         <PATH>/THEJUNOD/IG_COMPL_CD/I_COMPL_MISS_EV</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>2</LENGTH>
+      </COLUMN>
+      <COLUMN Name="CD_AE">
+         <PATH>/THEJUNOD/IG_COMPL_CD/I_COMPL_CD_AE</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>2</LENGTH>
+      </COLUMN>
+      <COLUMN Name="AE_SP">
+         <PATH>/THEJUNOD/IG_COMPL_CD/I_COMPL_AE_SP</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="CD_DTH">
+         <PATH>/THEJUNOD/IG_COMPL_CD/I_COMPL_CD_DTH</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>2</LENGTH>
+      </COLUMN>
+      <COLUMN Name="DTH_CAUS">
+         <PATH>/THEJUNOD/IG_COMPL_CD/I_COMPL_DTH_CAUSE</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="CD_OTH">
+         <PATH>/THEJUNOD/IG_COMPL_CD/I_COMPL_CD_OTH</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>2</LENGTH>
+      </COLUMN>
+      <COLUMN Name="OTH_SP">
+         <PATH>/THEJUNOD/IG_COMPL_CD/I_COMPL_OTH_SP</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>23</LENGTH>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_VERIF_VERIFY">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_VERIF_VERIFY</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_VERIF_VERIFY/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_VERIF_VERIFY/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_VERIF_VERIFY/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_VERIF_VERIFY/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ELIGI001">
+         <PATH>/THEJUNOD/IG_VERIF_VERIFY/I_VERIF_ELIGIBILITY_CONF</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VERI_INI">
+         <PATH>/THEJUNOD/IG_VERIF_VERIFY/I_VERIF_VERI_INIT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>3</LENGTH>
+      </COLUMN>
+      <COLUMN Name="VERI_DAT">
+         <PATH>/THEJUNOD/IG_VERIF_VERIFY/I_VERIF_VERI_DATE</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_DEMOG_DEMO">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_DEMOG_DEMO</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_DEMOG_DEMO/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_DEMOG_DEMO/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_DEMOG_DEMO/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_DEMOG_DEMO/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="DEM_AGE">
+         <PATH>/THEJUNOD/IG_DEMOG_DEMO/I_DEMOG_DEM_AGE</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>9</LENGTH>
+      </COLUMN>
+      <COLUMN Name="DEM_GEN">
+         <PATH>/THEJUNOD/IG_DEMOG_DEMO/I_DEMOG_DEM_GEN</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="DEM_ETH">
+         <PATH>/THEJUNOD/IG_DEMOG_DEMO/I_DEMOG_DEM_ETH</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="DEM_RACE">
+         <PATH>/THEJUNOD/IG_DEMOG_DEMO/I_DEMOG_DEM_RACE</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>21</LENGTH>
+      </COLUMN>
+      <COLUMN Name="DEM_OTRA">
+         <PATH>/THEJUNOD/IG_DEMOG_DEMO/I_DEMOG_DEM_OTRACE</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="DEM_MAR">
+         <PATH>/THEJUNOD/IG_DEMOG_DEMO/I_DEMOG_DEM_MAR</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="DEM_EDU">
+         <PATH>/THEJUNOD/IG_DEMOG_DEMO/I_DEMOG_DEM_EDU</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_DIABE_DIABETES">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_DIABE_DIABETES</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="DIABE002">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/I_DIABE_DIABETES_MHSTDAT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="DIABE003">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/I_DIABE_DIABETES_CMOCCUR</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>1</LENGTH>
+      </COLUMN>
+      <COLUMN Name="DIABE004">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/I_DIABE_DIABETES_CMSTDAT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="INSULIN_">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/I_DIABE_INSULIN_CMOCCUR</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>1</LENGTH>
+      </COLUMN>
+      <COLUMN Name="INSUL005">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/I_DIABE_INSULIN_CMSTDAT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="RETINOPA">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/I_DIABE_RETINOPATHY_MHOCCUR</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>1</LENGTH>
+      </COLUMN>
+      <COLUMN Name="RETIN006">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/I_DIABE_RETINOPATHY_MHSTDAT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SGOCCUR">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/I_DIABE_SGOCCUR</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>1</LENGTH>
+      </COLUMN>
+      <COLUMN Name="SGSTDAT">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/I_DIABE_SGSTDAT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="AUTONOMI">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/I_DIABE_AUTONOMIC_NEUROPATHY_MHOCCU</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>1</LENGTH>
+      </COLUMN>
+      <COLUMN Name="AUTON007">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/I_DIABE_AUTONOMIC_NEUROPATHY_MHSTDA</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="OTHER_DI">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/I_DIABE_OTHER_DIABETIC_NEUROPATHY_M</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>1</LENGTH>
+      </COLUMN>
+      <COLUMN Name="OTHER008">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/I_DIABE_OTHER_DIABETIC_NEUROPATHY_M_75</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="DIABETIC">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/I_DIABE_DIABETIC_NEPHROPATHY_MHOCCU</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>1</LENGTH>
+      </COLUMN>
+      <COLUMN Name="DIABE009">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/I_DIABE_DIABETIC_NEPHROPATHY_MHSTDA</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SEVERE_H">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/I_DIABE_SEVERE_HYPOGLYCEMIC_REACTIO</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>1</LENGTH>
+      </COLUMN>
+      <COLUMN Name="SEVER00a">
+         <PATH>/THEJUNOD/IG_DIABE_DIABETES/I_DIABE_SEVERE_HYPOGLYCEMIC_REACTIO_2314</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_LOCAL_TESTS">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_LOCAL_TESTS</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="HEM_DT">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_HEM_DT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="HEM_HEM">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_HEM_HEM</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>double</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="HEM_RBC">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_HEM_RBC</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>double</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="HEM_WBC">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_HEM_WBC</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>double</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="HEM_RHE">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_HEM_RHE</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>double</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="CH_DT">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_CH_DT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="CH_POT">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_CH_POT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>double</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="CH_CAL">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_CH_CAL</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>double</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="CH_ALB">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_CH_ALB</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>double</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="UR_DT">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_UR_DT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="UR_PRO">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_UR_PRO</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="UR_LEUK">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_UR_LEUK</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="UR_NITR">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_UR_NITR</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SITE_AB">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_SITE_AB</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SITE_DEC">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_SITE_DEC</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>5</LENGTH>
+      </COLUMN>
+      <COLUMN Name="HEM_UNIT">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_HEM_UNITS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>5</LENGTH>
+      </COLUMN>
+      <COLUMN Name="RBC_UNIT">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_RBC_UNITS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>17</LENGTH>
+      </COLUMN>
+      <COLUMN Name="WBC_UNIT">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_WBC_UNITS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>15</LENGTH>
+      </COLUMN>
+      <COLUMN Name="RHE_UNIT">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_RHE_UNITS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>5</LENGTH>
+      </COLUMN>
+      <COLUMN Name="POT_UNIT">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_POT_UNITS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>6</LENGTH>
+      </COLUMN>
+      <COLUMN Name="CAL_UNIT">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_CAL_UNITS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>6</LENGTH>
+      </COLUMN>
+      <COLUMN Name="ALB_UNIT">
+         <PATH>/THEJUNOD/IG_LOCAL_TESTS/I_LOCAL_ALB_UNITS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>6</LENGTH>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_VITAL_VITALS">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_VITAL_VITALS</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_VITAL_VITALS/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_VITAL_VITALS/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_VITAL_VITALS/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_VITAL_VITALS/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VS_TEMP">
+         <PATH>/THEJUNOD/IG_VITAL_VITALS/I_VITAL_VS_TEMP</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>double</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VS_TUNIT">
+         <PATH>/THEJUNOD/IG_VITAL_VITALS/I_VITAL_VS_TUNIT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VS_HGHT">
+         <PATH>/THEJUNOD/IG_VITAL_VITALS/I_VITAL_VS_HGHT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VS_WGHT">
+         <PATH>/THEJUNOD/IG_VITAL_VITALS/I_VITAL_VS_WGHT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VS_UNITS">
+         <PATH>/THEJUNOD/IG_VITAL_VITALS/I_VITAL_VS_UNITS</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VS_BMI">
+         <PATH>/THEJUNOD/IG_VITAL_VITALS/I_VITAL_VS_BMI</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>double</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VS_BPHR">
+         <PATH>/THEJUNOD/IG_VITAL_VITALS/I_VITAL_VS_BPHR</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VS_AVSYS">
+         <PATH>/THEJUNOD/IG_VITAL_VITALS/I_VITAL_VS_AVSYS</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VS_AVDIA">
+         <PATH>/THEJUNOD/IG_VITAL_VITALS/I_VITAL_VS_AVDIA</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VS_AVHR">
+         <PATH>/THEJUNOD/IG_VITAL_VITALS/I_VITAL_VS_AVHR</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VS_COMM">
+         <PATH>/THEJUNOD/IG_VITAL_VITALS/I_VITAL_VS_COMM</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>48</LENGTH>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_VITAL_BPLOG">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_VITAL_BPLOG</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_VITAL_BPLOG/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_VITAL_BPLOG/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_VITAL_BPLOG/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_VITAL_BPLOG/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VS_TYPE">
+         <PATH>/THEJUNOD/IG_VITAL_BPLOG/I_VITAL_VS_TYPE</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>8</LENGTH>
+      </COLUMN>
+      <COLUMN Name="VS_SYSBP">
+         <PATH>/THEJUNOD/IG_VITAL_BPLOG/I_VITAL_VS_SYSBP</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VS_DIABP">
+         <PATH>/THEJUNOD/IG_VITAL_BPLOG/I_VITAL_VS_DIABP</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VS_HR">
+         <PATH>/THEJUNOD/IG_VITAL_BPLOG/I_VITAL_VS_HR</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_MRI_MRI">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_MRI_MRI</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_MRI_MRI/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_MRI_MRI/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_MRI_MRI/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_MRI_MRI/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="MRI_YN">
+         <PATH>/THEJUNOD/IG_MRI_MRI/I_MRI_MRI_YN</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="MRI_NO">
+         <PATH>/THEJUNOD/IG_MRI_MRI/I_MRI_MRI_NO</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="MRI_RES">
+         <PATH>/THEJUNOD/IG_MRI_MRI/I_MRI_MRI_RES</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="MRI_AB">
+         <PATH>/THEJUNOD/IG_MRI_MRI/I_MRI_MRI_AB</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>31</LENGTH>
+      </COLUMN>
+      <COLUMN Name="MRI_DOC">
+         <PATH>/THEJUNOD/IG_MRI_MRI/I_MRI_MRI_DOC</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_INCLU_ELIGIBILITY">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_INCLU_ELIGIBILITY</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_INCLU_ELIGIBILITY/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_INCLU_ELIGIBILITY/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_INCLU_ELIGIBILITY/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_INCLU_ELIGIBILITY/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="IN_18YO">
+         <PATH>/THEJUNOD/IG_INCLU_ELIGIBILITY/I_INCLU_IN_18YO</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="IN_T2MEL">
+         <PATH>/THEJUNOD/IG_INCLU_ELIGIBILITY/I_INCLU_IN_T2MEL</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="IN_FPLGL">
+         <PATH>/THEJUNOD/IG_INCLU_ELIGIBILITY/I_INCLU_IN_FPLGL</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="IN_HEAC1">
+         <PATH>/THEJUNOD/IG_INCLU_ELIGIBILITY/I_INCLU_IN_HEAC1</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="IN_FLENG">
+         <PATH>/THEJUNOD/IG_INCLU_ELIGIBILITY/I_INCLU_IN_FLENG</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="IN_CMSSR">
+         <PATH>/THEJUNOD/IG_INCLU_ELIGIBILITY/I_INCLU_IN_CMSSR</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="IN_IC">
+         <PATH>/THEJUNOD/IG_INCLU_ELIGIBILITY/I_INCLU_IN_IC</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="IN_DT_IC">
+         <PATH>/THEJUNOD/IG_INCLU_ELIGIBILITY/I_INCLU_IN_DT_IC</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="EX_OGTT">
+         <PATH>/THEJUNOD/IG_INCLU_ELIGIBILITY/I_INCLU_EX_OGTT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="EX_RECNT">
+         <PATH>/THEJUNOD/IG_INCLU_ELIGIBILITY/I_INCLU_EX_RECNT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="EX_HEP">
+         <PATH>/THEJUNOD/IG_INCLU_ELIGIBILITY/I_INCLU_EX_HEP</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="EX_EVINF">
+         <PATH>/THEJUNOD/IG_INCLU_ELIGIBILITY/I_INCLU_EX_EVINF</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="EX_STRKE">
+         <PATH>/THEJUNOD/IG_INCLU_ELIGIBILITY/I_INCLU_EX_STRKE</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="EX_PREG">
+         <PATH>/THEJUNOD/IG_INCLU_ELIGIBILITY/I_INCLU_EX_PREG</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="EX_MENTL">
+         <PATH>/THEJUNOD/IG_INCLU_ELIGIBILITY/I_INCLU_EX_MENTL</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="INEX_ELI">
+         <PATH>/THEJUNOD/IG_INCLU_ELIGIBILITY/I_INCLU_INEX_ELIG</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_PHYSI_UNGROUPED">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_PHYSI_UNGROUPED</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="PEDAT">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_PEDAT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="PETIM">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_PETIM</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>5</LENGTH>
+      </COLUMN>
+      <COLUMN Name="HEIGHT">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_HEIGHT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>double</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="WEIGHT">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_WEIGHT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>double</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="TEMPERAT">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_TEMPERATURE</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>double</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="PULSE">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_PULSE</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="RESPIRAT">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_RESPIRATION</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SYSTOLIC">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_SYSTOLIC</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>3</LENGTH>
+      </COLUMN>
+      <COLUMN Name="DIASTOLI">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_DIASTOLIC</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>2</LENGTH>
+      </COLUMN>
+      <COLUMN Name="BMI">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_BMI</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>double</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="APPEARAN">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_APPEARANCE</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="APPEA00b">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_APPEARANCE_COMMENTS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>9</LENGTH>
+      </COLUMN>
+      <COLUMN Name="SKIN">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_SKIN</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SKIN_COM">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_SKIN_COMMENTS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>5</LENGTH>
+      </COLUMN>
+      <COLUMN Name="HEENT">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_HEENT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="HEENT_CO">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_HEENT_COMMENTS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="THYROID">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_THYROID</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="THYROID_">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_THYROID_COMMENTS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="CHEST">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_CHEST</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="CHEST_CO">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_CHEST_COMMENTS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="LUNGS">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_LUNGS</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="LUNGS_CO">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_LUNGS_COMMENTS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="BREAST">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_BREAST</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="BREASTS_">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_BREASTS_COMMENTS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="HEART">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_HEART</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="HEART_CO">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_HEART_COMMENTS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="ABDOMEN">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_ABDOMEN</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ABDOMEN_">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_ABDOMEN_COMMENTS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="MUSCULOS">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_MUSCULOSKELETAL</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="MUSCU00c">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_MUSCULOSKELETAL_COMMENTS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="GENITALI">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_GENITALIA</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="GENIT00d">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_GENITALIA_COMMENTS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="PELVIS">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_PELVIS</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="PELVIS_C">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_PELVIS_COMMENTS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="RECTAL">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_RECTAL</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="RECTAL_C">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_RECTAL_COMMENTS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="PROSTATE">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_PROSTATE</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="PROST00e">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_PROSTATE_COMMENTS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="VASCULAR">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_VASCULAR</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VASCU00f">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_VASCULAR_COMMENTS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="NEUROLOG">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_NEUROLOGICAL</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="NEURO00g">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_NEUROLOGICAL_COMMENTS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="LYMPHNOD">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_LYMPHNODES</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="LYMPH00h">
+         <PATH>/THEJUNOD/IG_PHYSI_UNGROUPED/I_PHYSI_LYMPHNODES_COMMENTS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>15</LENGTH>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_PHYSI_OTHERBODYSYSTEMSITE">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_PHYSI_OTHERBODYSYSTEMSITE</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_PHYSI_OTHERBODYSYSTEMSITE/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_PHYSI_OTHERBODYSYSTEMSITE/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_PHYSI_OTHERBODYSYSTEMSITE/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_PHYSI_OTHERBODYSYSTEMSITE/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="OTHERBOD">
+         <PATH>/THEJUNOD/IG_PHYSI_OTHERBODYSYSTEMSITE/I_PHYSI_OTHERBODYSYSTEM</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>4</LENGTH>
+      </COLUMN>
+      <COLUMN Name="OTHER00i">
+         <PATH>/THEJUNOD/IG_PHYSI_OTHERBODYSYSTEMSITE/I_PHYSI_OTHERBODYSYSTEM_STATUS</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="OTHER00j">
+         <PATH>/THEJUNOD/IG_PHYSI_OTHERBODYSYSTEMSITE/I_PHYSI_OTHERBODYSYSTEM_COMMENTS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>10</LENGTH>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_ADVER_AELOG">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_ADVER_AELOG</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_ADVER_AELOG/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_ADVER_AELOG/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_ADVER_AELOG/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_ADVER_AELOG/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="AE_DESC">
+         <PATH>/THEJUNOD/IG_ADVER_AELOG/I_ADVER_AE_DESC</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>8</LENGTH>
+      </COLUMN>
+      <COLUMN Name="AE_DTON">
+         <PATH>/THEJUNOD/IG_ADVER_AELOG/I_ADVER_AE_DTON</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="AE_DTRE">
+         <PATH>/THEJUNOD/IG_ADVER_AELOG/I_ADVER_AE_DTRE</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="AE_SEV">
+         <PATH>/THEJUNOD/IG_ADVER_AELOG/I_ADVER_AE_SEV</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="AE_ACT">
+         <PATH>/THEJUNOD/IG_ADVER_AELOG/I_ADVER_AE_ACT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="AE_OUT">
+         <PATH>/THEJUNOD/IG_ADVER_AELOG/I_ADVER_AE_OUT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="AE_OTOUT">
+         <PATH>/THEJUNOD/IG_ADVER_AELOG/I_ADVER_AE_OTOUT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_CONCO_CONMEDS">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_CONCO_CONMEDS</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_CONCO_CONMEDS/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_CONCO_CONMEDS/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_CONCO_CONMEDS/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_CONCO_CONMEDS/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="CM_YN">
+         <PATH>/THEJUNOD/IG_CONCO_CONMEDS/I_CONCO_CM_YN</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_CONCO_CONMEDLOG">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_CONCO_CONMEDLOG</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_CONCO_CONMEDLOG/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_CONCO_CONMEDLOG/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_CONCO_CONMEDLOG/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_CONCO_CONMEDLOG/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="CM_MED">
+         <PATH>/THEJUNOD/IG_CONCO_CONMEDLOG/I_CONCO_CM_MED</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>7</LENGTH>
+      </COLUMN>
+      <COLUMN Name="CM_DOSE">
+         <PATH>/THEJUNOD/IG_CONCO_CONMEDLOG/I_CONCO_CM_DOSE</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>4</LENGTH>
+      </COLUMN>
+      <COLUMN Name="CM_FREQ">
+         <PATH>/THEJUNOD/IG_CONCO_CONMEDLOG/I_CONCO_CM_FREQ</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="CM_IND">
+         <PATH>/THEJUNOD/IG_CONCO_CONMEDLOG/I_CONCO_CM_IND</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>19</LENGTH>
+      </COLUMN>
+      <COLUMN Name="CM_STDT">
+         <PATH>/THEJUNOD/IG_CONCO_CONMEDLOG/I_CONCO_CM_STDT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>20</LENGTH>
+      </COLUMN>
+      <COLUMN Name="CM_ONGNG">
+         <PATH>/THEJUNOD/IG_CONCO_CONMEDLOG/I_CONCO_CM_ONGNG</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="CM_SPDT">
+         <PATH>/THEJUNOD/IG_CONCO_CONMEDLOG/I_CONCO_CM_SPDT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>20</LENGTH>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_SERIO_SAE1">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_SERIO_SAE1</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_SERIO_SAE1/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_SERIO_SAE1/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_SERIO_SAE1/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_SERIO_SAE1/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE1_YN">
+         <PATH>/THEJUNOD/IG_SERIO_SAE1/I_SERIO_SAE1_YN</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE1_CAT">
+         <PATH>/THEJUNOD/IG_SERIO_SAE1/I_SERIO_SAE1_CAT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE1_OT">
+         <PATH>/THEJUNOD/IG_SERIO_SAE1/I_SERIO_SAE1_OT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>5</LENGTH>
+      </COLUMN>
+      <COLUMN Name="SAE1_DES">
+         <PATH>/THEJUNOD/IG_SERIO_SAE1/I_SERIO_SAE1_DES</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>12</LENGTH>
+      </COLUMN>
+      <COLUMN Name="SAE1_DTS">
+         <PATH>/THEJUNOD/IG_SERIO_SAE1/I_SERIO_SAE1_DTST</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE1_CON">
+         <PATH>/THEJUNOD/IG_SERIO_SAE1/I_SERIO_SAE1_CON</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE1_DTE">
+         <PATH>/THEJUNOD/IG_SERIO_SAE1/I_SERIO_SAE1_DTED</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE1_STA">
+         <PATH>/THEJUNOD/IG_SERIO_SAE1/I_SERIO_SAE1_STAT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE2_YN">
+         <PATH>/THEJUNOD/IG_SERIO_SAE1/I_SERIO_SAE2_YN</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_SERIO_SAE2">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_SERIO_SAE2</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_SERIO_SAE2/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_SERIO_SAE2/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_SERIO_SAE2/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_SERIO_SAE2/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE2_CAT">
+         <PATH>/THEJUNOD/IG_SERIO_SAE2/I_SERIO_SAE2_CAT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE2_OT">
+         <PATH>/THEJUNOD/IG_SERIO_SAE2/I_SERIO_SAE2_OT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="SAE2_DES">
+         <PATH>/THEJUNOD/IG_SERIO_SAE2/I_SERIO_SAE2_DES</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="SAE2_DTS">
+         <PATH>/THEJUNOD/IG_SERIO_SAE2/I_SERIO_SAE2_DTST</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE2_CON">
+         <PATH>/THEJUNOD/IG_SERIO_SAE2/I_SERIO_SAE2_CON</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE2_DTE">
+         <PATH>/THEJUNOD/IG_SERIO_SAE2/I_SERIO_SAE2_DTED</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE2_STA">
+         <PATH>/THEJUNOD/IG_SERIO_SAE2/I_SERIO_SAE2_STAT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE3_YN">
+         <PATH>/THEJUNOD/IG_SERIO_SAE2/I_SERIO_SAE3_YN</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_SERIO_SAE3">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_SERIO_SAE3</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_SERIO_SAE3/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_SERIO_SAE3/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_SERIO_SAE3/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_SERIO_SAE3/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE3_CAT">
+         <PATH>/THEJUNOD/IG_SERIO_SAE3/I_SERIO_SAE3_CAT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE3_OT">
+         <PATH>/THEJUNOD/IG_SERIO_SAE3/I_SERIO_SAE3_OT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="SAE3_DES">
+         <PATH>/THEJUNOD/IG_SERIO_SAE3/I_SERIO_SAE3_DES</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="SAE3_DTS">
+         <PATH>/THEJUNOD/IG_SERIO_SAE3/I_SERIO_SAE3_DTST</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE3_CON">
+         <PATH>/THEJUNOD/IG_SERIO_SAE3/I_SERIO_SAE3_CON</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE3_DTE">
+         <PATH>/THEJUNOD/IG_SERIO_SAE3/I_SERIO_SAE3_DTED</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE3_STA">
+         <PATH>/THEJUNOD/IG_SERIO_SAE3/I_SERIO_SAE3_STAT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE4_YN">
+         <PATH>/THEJUNOD/IG_SERIO_SAE3/I_SERIO_SAE4_YN</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_SERIO_SAE4">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_SERIO_SAE4</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_SERIO_SAE4/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_SERIO_SAE4/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_SERIO_SAE4/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_SERIO_SAE4/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE4_CAT">
+         <PATH>/THEJUNOD/IG_SERIO_SAE4/I_SERIO_SAE4_CAT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE4_OT">
+         <PATH>/THEJUNOD/IG_SERIO_SAE4/I_SERIO_SAE4_OT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="SAE4_DES">
+         <PATH>/THEJUNOD/IG_SERIO_SAE4/I_SERIO_SAE4_DES</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="SAE4_DTS">
+         <PATH>/THEJUNOD/IG_SERIO_SAE4/I_SERIO_SAE4_DTST</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE4_CON">
+         <PATH>/THEJUNOD/IG_SERIO_SAE4/I_SERIO_SAE4_CON</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE4_DTE">
+         <PATH>/THEJUNOD/IG_SERIO_SAE4/I_SERIO_SAE4_DTED</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE4_STA">
+         <PATH>/THEJUNOD/IG_SERIO_SAE4/I_SERIO_SAE4_STAT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE5_YN">
+         <PATH>/THEJUNOD/IG_SERIO_SAE4/I_SERIO_SAE5_YN</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_SERIO_SAE5">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_SERIO_SAE5</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_SERIO_SAE5/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_SERIO_SAE5/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_SERIO_SAE5/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_SERIO_SAE5/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE5_CAT">
+         <PATH>/THEJUNOD/IG_SERIO_SAE5/I_SERIO_SAE5_CAT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE5_OT">
+         <PATH>/THEJUNOD/IG_SERIO_SAE5/I_SERIO_SAE5_OT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="SAE5_DES">
+         <PATH>/THEJUNOD/IG_SERIO_SAE5/I_SERIO_SAE5_DES</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="SAE5_DTS">
+         <PATH>/THEJUNOD/IG_SERIO_SAE5/I_SERIO_SAE5_DTST</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE5_CON">
+         <PATH>/THEJUNOD/IG_SERIO_SAE5/I_SERIO_SAE5_CON</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE5_DTE">
+         <PATH>/THEJUNOD/IG_SERIO_SAE5/I_SERIO_SAE5_DTED</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SAE5_STA">
+         <PATH>/THEJUNOD/IG_SERIO_SAE5/I_SERIO_SAE5_STAT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_PROTO_PROTOCOLDEVIATIONLOG">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_PROTO_PROTOCOLDEVIATIONLOG</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_PROTO_PROTOCOLDEVIATIONLOG/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_PROTO_PROTOCOLDEVIATIONLOG/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_PROTO_PROTOCOLDEVIATIONLOG/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_PROTO_PROTOCOLDEVIATIONLOG/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="PD_EVENT">
+         <PATH>/THEJUNOD/IG_PROTO_PROTOCOLDEVIATIONLOG/I_PROTO_PD_EVENT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="PD_PRODE">
+         <PATH>/THEJUNOD/IG_PROTO_PROTOCOLDEVIATIONLOG/I_PROTO_PD_PRODEV</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="PD_DEV">
+         <PATH>/THEJUNOD/IG_PROTO_PROTOCOLDEVIATIONLOG/I_PROTO_PD_DEV</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>32</LENGTH>
+      </COLUMN>
+      <COLUMN Name="PD_REA">
+         <PATH>/THEJUNOD/IG_PROTO_PROTOCOLDEVIATIONLOG/I_PROTO_PD_REA</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>48</LENGTH>
+      </COLUMN>
+      <COLUMN Name="PD_COMM">
+         <PATH>/THEJUNOD/IG_PROTO_PROTOCOLDEVIATIONLOG/I_PROTO_PD_COMM</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_PHARM_RESULTS">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_PHARM_RESULTS</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_PHARM_RESULTS/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_PHARM_RESULTS/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_PHARM_RESULTS/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_PHARM_RESULTS/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="PH_DT">
+         <PATH>/THEJUNOD/IG_PHARM_RESULTS/I_PHARM_PH_DT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="PH_S1ST">
+         <PATH>/THEJUNOD/IG_PHARM_RESULTS/I_PHARM_PH_S1ST</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>5</LENGTH>
+      </COLUMN>
+      <COLUMN Name="PH_S1AT">
+         <PATH>/THEJUNOD/IG_PHARM_RESULTS/I_PHARM_PH_S1AT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>5</LENGTH>
+      </COLUMN>
+      <COLUMN Name="PH_S1RS">
+         <PATH>/THEJUNOD/IG_PHARM_RESULTS/I_PHARM_PH_S1RS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>5</LENGTH>
+      </COLUMN>
+      <COLUMN Name="PH_S2ST">
+         <PATH>/THEJUNOD/IG_PHARM_RESULTS/I_PHARM_PH_S2ST</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>5</LENGTH>
+      </COLUMN>
+      <COLUMN Name="PH_S2AT">
+         <PATH>/THEJUNOD/IG_PHARM_RESULTS/I_PHARM_PH_S2AT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>5</LENGTH>
+      </COLUMN>
+      <COLUMN Name="PH_S2RS">
+         <PATH>/THEJUNOD/IG_PHARM_RESULTS/I_PHARM_PH_S2RS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>5</LENGTH>
+      </COLUMN>
+      <COLUMN Name="PH_S3ST">
+         <PATH>/THEJUNOD/IG_PHARM_RESULTS/I_PHARM_PH_S3ST</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>5</LENGTH>
+      </COLUMN>
+      <COLUMN Name="PH_S3AT">
+         <PATH>/THEJUNOD/IG_PHARM_RESULTS/I_PHARM_PH_S3AT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>5</LENGTH>
+      </COLUMN>
+      <COLUMN Name="PH_S3RS">
+         <PATH>/THEJUNOD/IG_PHARM_RESULTS/I_PHARM_PH_S3RS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>5</LENGTH>
+      </COLUMN>
+      <COLUMN Name="PH_S4ST">
+         <PATH>/THEJUNOD/IG_PHARM_RESULTS/I_PHARM_PH_S4ST</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>5</LENGTH>
+      </COLUMN>
+      <COLUMN Name="PH_S4AT">
+         <PATH>/THEJUNOD/IG_PHARM_RESULTS/I_PHARM_PH_S4AT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>5</LENGTH>
+      </COLUMN>
+      <COLUMN Name="PH_S4RS">
+         <PATH>/THEJUNOD/IG_PHARM_RESULTS/I_PHARM_PH_S4RS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>5</LENGTH>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_MEDIC_G1">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_MEDIC_G1</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_MEDIC_G1/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_MEDIC_G1/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_MEDIC_G1/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_MEDIC_G1/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="PER_DIAG">
+         <PATH>/THEJUNOD/IG_MEDIC_G1/I_MEDIC_PER_DIAG</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>15</LENGTH>
+      </COLUMN>
+      <COLUMN Name="PER_DATE">
+         <PATH>/THEJUNOD/IG_MEDIC_G1/I_MEDIC_PER_DATE</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>20</LENGTH>
+      </COLUMN>
+      <COLUMN Name="PER_COMM">
+         <PATH>/THEJUNOD/IG_MEDIC_G1/I_MEDIC_PER_COMM</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_MEDIC_G2">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_MEDIC_G2</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_MEDIC_G2/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_MEDIC_G2/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_MEDIC_G2/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_MEDIC_G2/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="FAM_ID">
+         <PATH>/THEJUNOD/IG_MEDIC_G2/I_MEDIC_FAM_ID</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="FAM_DIAG">
+         <PATH>/THEJUNOD/IG_MEDIC_G2/I_MEDIC_FAM_DIAG</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>19</LENGTH>
+      </COLUMN>
+      <COLUMN Name="FAM_DATE">
+         <PATH>/THEJUNOD/IG_MEDIC_G2/I_MEDIC_FAM_DATE</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>20</LENGTH>
+      </COLUMN>
+      <COLUMN Name="FAM_COMM">
+         <PATH>/THEJUNOD/IG_MEDIC_G2/I_MEDIC_FAM_COMM</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_EATIN_HABITS">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_EATIN_HABITS</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_EATIN_HABITS/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_EATIN_HABITS/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_EATIN_HABITS/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_EATIN_HABITS/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="LVALONE">
+         <PATH>/THEJUNOD/IG_EATIN_HABITS/I_EATIN_LVALONE</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ADULT">
+         <PATH>/THEJUNOD/IG_EATIN_HABITS/I_EATIN_ADULT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="CHILDREN">
+         <PATH>/THEJUNOD/IG_EATIN_HABITS/I_EATIN_CHILDREN</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="DINNER">
+         <PATH>/THEJUNOD/IG_EATIN_HABITS/I_EATIN_DINNER</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="DAIRY">
+         <PATH>/THEJUNOD/IG_EATIN_HABITS/I_EATIN_DAIRY</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="FRUITS">
+         <PATH>/THEJUNOD/IG_EATIN_HABITS/I_EATIN_FRUITS</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VEGGIE">
+         <PATH>/THEJUNOD/IG_EATIN_HABITS/I_EATIN_VEGGIE</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="MEAT">
+         <PATH>/THEJUNOD/IG_EATIN_HABITS/I_EATIN_MEAT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SWEETS">
+         <PATH>/THEJUNOD/IG_EATIN_HABITS/I_EATIN_SWEETS</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SUGARTSP">
+         <PATH>/THEJUNOD/IG_EATIN_HABITS/I_EATIN_SUGARTSP</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="COOKFAT">
+         <PATH>/THEJUNOD/IG_EATIN_HABITS/I_EATIN_COOKFAT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>16</LENGTH>
+      </COLUMN>
+      <COLUMN Name="OTHERCOO">
+         <PATH>/THEJUNOD/IG_EATIN_HABITS/I_EATIN_OTHERCOOK</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="VITSUPP">
+         <PATH>/THEJUNOD/IG_EATIN_HABITS/I_EATIN_VITSUPP</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_EATIN_VITAMINLOG">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_EATIN_VITAMINLOG</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_EATIN_VITAMINLOG/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_EATIN_VITAMINLOG/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_EATIN_VITAMINLOG/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_EATIN_VITAMINLOG/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="NAMEVIT">
+         <PATH>/THEJUNOD/IG_EATIN_VITAMINLOG/I_EATIN_NAMEVIT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>19</LENGTH>
+      </COLUMN>
+      <COLUMN Name="AMTVIT">
+         <PATH>/THEJUNOD/IG_EATIN_VITAMINLOG/I_EATIN_AMTVIT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>11</LENGTH>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_PHYSI_PHYSICAL">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_PHYSI_PHYSICAL</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_PHYSI_PHYSICAL/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_PHYSI_PHYSICAL/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_PHYSI_PHYSICAL/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_PHYSI_PHYSICAL/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="PEDATE">
+         <PATH>/THEJUNOD/IG_PHYSI_PHYSICAL/I_PHYSI_PEDATE</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="PETIME">
+         <PATH>/THEJUNOD/IG_PHYSI_PHYSICAL/I_PHYSI_PETIME</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="PEDESC">
+         <PATH>/THEJUNOD/IG_PHYSI_PHYSICAL/I_PHYSI_PEDESC</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>10</LENGTH>
+      </COLUMN>
+      <COLUMN Name="PEINTENS">
+         <PATH>/THEJUNOD/IG_PHYSI_PHYSICAL/I_PHYSI_PEINTENSITY</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="PEDURATI">
+         <PATH>/THEJUNOD/IG_PHYSI_PHYSICAL/I_PHYSI_PEDURATION</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>10</LENGTH>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_PROMI_PROMIS">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_PROMI_PROMIS</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_PROMI_PROMIS/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_PROMI_PROMIS/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_PROMI_PROMIS/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_PROMI_PROMIS/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="FATEXP20">
+         <PATH>/THEJUNOD/IG_PROMI_PROMIS/I_PROMI_FATEXP20</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="FATEXP5">
+         <PATH>/THEJUNOD/IG_PROMI_PROMIS/I_PROMI_FATEXP5</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="FATEXP18">
+         <PATH>/THEJUNOD/IG_PROMI_PROMIS/I_PROMI_FATEXP18</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="FATEXP33">
+         <PATH>/THEJUNOD/IG_PROMI_PROMIS/I_PROMI_FATEXP33</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="FATEXP30">
+         <PATH>/THEJUNOD/IG_PROMI_PROMIS/I_PROMI_FATEXP30</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="FATEXP21">
+         <PATH>/THEJUNOD/IG_PROMI_PROMIS/I_PROMI_FATEXP21</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="FATEXP40">
+         <PATH>/THEJUNOD/IG_PROMI_PROMIS/I_PROMI_FATEXP40</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_KITCH_TEXTTYPES">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_KITCH_TEXTTYPES</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_KITCH_TEXTTYPES/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_KITCH_TEXTTYPES/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_TEXTTYPES/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_TEXTTYPES/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="TXT1DEF">
+         <PATH>/THEJUNOD/IG_KITCH_TEXTTYPES/I_KITCH_TXT1DEF</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="TXT2FMT">
+         <PATH>/THEJUNOD/IG_KITCH_TEXTTYPES/I_KITCH_TXT2FMT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="TXT3URL">
+         <PATH>/THEJUNOD/IG_KITCH_TEXTTYPES/I_KITCH_TXT3URL</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="TXT4SML">
+         <PATH>/THEJUNOD/IG_KITCH_TEXTTYPES/I_KITCH_TXT4SML</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="TXT5LGO">
+         <PATH>/THEJUNOD/IG_KITCH_TEXTTYPES/I_KITCH_TXT5LGO</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_KITCH_RESPONSEOPTIONS">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_KITCH_RESPONSEOPTIONS</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_KITCH_RESPONSEOPTIONS/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_KITCH_RESPONSEOPTIONS/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_RESPONSEOPTIONS/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_RESPONSEOPTIONS/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="RES1TXT">
+         <PATH>/THEJUNOD/IG_KITCH_RESPONSEOPTIONS/I_KITCH_RES1TXT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="RES2TA">
+         <PATH>/THEJUNOD/IG_KITCH_RESPONSEOPTIONS/I_KITCH_RES2TA</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="RES3SS">
+         <PATH>/THEJUNOD/IG_KITCH_RESPONSEOPTIONS/I_KITCH_RES3SS</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="RES4MS">
+         <PATH>/THEJUNOD/IG_KITCH_RESPONSEOPTIONS/I_KITCH_RES4MS</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>8</LENGTH>
+      </COLUMN>
+      <COLUMN Name="RES5CHK">
+         <PATH>/THEJUNOD/IG_KITCH_RESPONSEOPTIONS/I_KITCH_RES5CHK</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>8</LENGTH>
+      </COLUMN>
+      <COLUMN Name="RES6RD">
+         <PATH>/THEJUNOD/IG_KITCH_RESPONSEOPTIONS/I_KITCH_RES6RD</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="RES7DT">
+         <PATH>/THEJUNOD/IG_KITCH_RESPONSEOPTIONS/I_KITCH_RES7DT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="RES8PDT">
+         <PATH>/THEJUNOD/IG_KITCH_RESPONSEOPTIONS/I_KITCH_RES8PDT</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>20</LENGTH>
+      </COLUMN>
+      <COLUMN Name="RES9FLE">
+         <PATH>/THEJUNOD/IG_KITCH_RESPONSEOPTIONS/I_KITCH_RES9FLE</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="RES10SLD">
+         <PATH>/THEJUNOD/IG_KITCH_RESPONSEOPTIONS/I_KITCH_RES10SLD</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_KITCH_LAYOUTS">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_KITCH_LAYOUTS</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="LAY1COL1">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS/I_KITCH_LAY1COL1</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="LAY2COL2">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS/I_KITCH_LAY2COL2</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="LAY3COL3">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS/I_KITCH_LAY3COL3</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="LAY4COL1">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS/I_KITCH_LAY4COL1</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="LAY5COL2">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS/I_KITCH_LAY5COL2</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="LAY6COL3">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS/I_KITCH_LAY6COL3</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="LAY7COL1">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS/I_KITCH_LAY7COL1</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="LAY8COL2">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS/I_KITCH_LAY8COL2</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="LAY8COL3">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS/I_KITCH_LAY8COL3</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="LAY9CB1">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS/I_KITCH_LAY9CB1</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>16</LENGTH>
+      </COLUMN>
+      <COLUMN Name="LAY10CB2">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS/I_KITCH_LAY10CB2</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>16</LENGTH>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_KITCH_LAYOUTS_GRID">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_KITCH_LAYOUTS_GRID</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS_GRID/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS_GRID/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS_GRID/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS_GRID/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="LAY11GR1">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS_GRID/I_KITCH_LAY11GR1</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="LAY12GR2">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS_GRID/I_KITCH_LAY12GR2</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="LAY13GR3">
+         <PATH>/THEJUNOD/IG_KITCH_LAYOUTS_GRID/I_KITCH_LAY13GR3</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_KITCH_ITEMOPTIONS">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_KITCH_ITEMOPTIONS</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_KITCH_ITEMOPTIONS/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_KITCH_ITEMOPTIONS/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_ITEMOPTIONS/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_ITEMOPTIONS/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ITM1NR">
+         <PATH>/THEJUNOD/IG_KITCH_ITEMOPTIONS/I_KITCH_ITM1NR</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ITM2REQ">
+         <PATH>/THEJUNOD/IG_KITCH_ITEMOPTIONS/I_KITCH_ITM2REQ</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ITM3SHOW">
+         <PATH>/THEJUNOD/IG_KITCH_ITEMOPTIONS/I_KITCH_ITM3SHOW</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ITM4HIDE">
+         <PATH>/THEJUNOD/IG_KITCH_ITEMOPTIONS/I_KITCH_ITM4HIDE</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="ITM5SHOW">
+         <PATH>/THEJUNOD/IG_KITCH_ITEMOPTIONS/I_KITCH_ITM5SHOW2</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ITM5HIDE">
+         <PATH>/THEJUNOD/IG_KITCH_ITEMOPTIONS/I_KITCH_ITM5HIDE2</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>6</LENGTH>
+      </COLUMN>
+      <COLUMN Name="ITM6INT">
+         <PATH>/THEJUNOD/IG_KITCH_ITEMOPTIONS/I_KITCH_ITM6INT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ITM7DECW">
+         <PATH>/THEJUNOD/IG_KITCH_ITEMOPTIONS/I_KITCH_ITM7DECW</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>double</DATATYPE>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_KITCH_VALIDATIONS">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_KITCH_VALIDATIONS</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_KITCH_VALIDATIONS/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_KITCH_VALIDATIONS/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_VALIDATIONS/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_VALIDATIONS/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VAL1GT">
+         <PATH>/THEJUNOD/IG_KITCH_VALIDATIONS/I_KITCH_VAL1GT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VAL2LT">
+         <PATH>/THEJUNOD/IG_KITCH_VALIDATIONS/I_KITCH_VAL2LT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VAL3GTE">
+         <PATH>/THEJUNOD/IG_KITCH_VALIDATIONS/I_KITCH_VAL3GTE</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VAL4LTE">
+         <PATH>/THEJUNOD/IG_KITCH_VALIDATIONS/I_KITCH_VAL4LTE</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VAL5NE">
+         <PATH>/THEJUNOD/IG_KITCH_VALIDATIONS/I_KITCH_VAL5NE</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VAL6EQ">
+         <PATH>/THEJUNOD/IG_KITCH_VALIDATIONS/I_KITCH_VAL6EQ</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VAL7RNG">
+         <PATH>/THEJUNOD/IG_KITCH_VALIDATIONS/I_KITCH_VAL7RNG</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="VAL8RX1">
+         <PATH>/THEJUNOD/IG_KITCH_VALIDATIONS/I_KITCH_VAL8RX1</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="VAL9RX2">
+         <PATH>/THEJUNOD/IG_KITCH_VALIDATIONS/I_KITCH_VAL9RX2</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="VAL10RX3">
+         <PATH>/THEJUNOD/IG_KITCH_VALIDATIONS/I_KITCH_VAL10RX3</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>date</DATATYPE>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_KITCH_CALCULATIONS">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_KITCH_CALCULATIONS</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_KITCH_CALCULATIONS/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_KITCH_CALCULATIONS/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_CALCULATIONS/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_CALCULATIONS/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="CAL1VAL1">
+         <PATH>/THEJUNOD/IG_KITCH_CALCULATIONS/I_KITCH_CAL1VAL1</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="CAL2VAL2">
+         <PATH>/THEJUNOD/IG_KITCH_CALCULATIONS/I_KITCH_CAL2VAL2</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="CAL5SUM">
+         <PATH>/THEJUNOD/IG_KITCH_CALCULATIONS/I_KITCH_CAL5SUM</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="CAL6AVG">
+         <PATH>/THEJUNOD/IG_KITCH_CALCULATIONS/I_KITCH_CAL6AVG</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>double</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="CAL7VAL4">
+         <PATH>/THEJUNOD/IG_KITCH_CALCULATIONS/I_KITCH_CAL7VAL4</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="CAL8SD">
+         <PATH>/THEJUNOD/IG_KITCH_CALCULATIONS/I_KITCH_CAL8SD</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>double</DATATYPE>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_KITCH_CALC_GRID">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_KITCH_CALC_GRID</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_KITCH_CALC_GRID/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_KITCH_CALC_GRID/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_CALC_GRID/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_CALC_GRID/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="CAL3GR1">
+         <PATH>/THEJUNOD/IG_KITCH_CALC_GRID/I_KITCH_CAL3GR1</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="CAL4GR2">
+         <PATH>/THEJUNOD/IG_KITCH_CALC_GRID/I_KITCH_CAL4GR2</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_KITCH_DISCREPANCYNOTE">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_KITCH_DISCREPANCYNOTE</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_KITCH_DISCREPANCYNOTE/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_KITCH_DISCREPANCYNOTE/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_DISCREPANCYNOTE/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_DISCREPANCYNOTE/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="DN1EXAM">
+         <PATH>/THEJUNOD/IG_KITCH_DISCREPANCYNOTE/I_KITCH_DN1EXAM</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="DN2DATE">
+         <PATH>/THEJUNOD/IG_KITCH_DISCREPANCYNOTE/I_KITCH_DN2DATE</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_KITCH_SHOWACTION">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_KITCH_SHOWACTION</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_KITCH_SHOWACTION/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_KITCH_SHOWACTION/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_SHOWACTION/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_SHOWACTION/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SI1BPHR">
+         <PATH>/THEJUNOD/IG_KITCH_SHOWACTION/I_KITCH_SI1BPHR</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_KITCH_INSERTACTION">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_KITCH_INSERTACTION</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_KITCH_INSERTACTION/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_KITCH_INSERTACTION/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_INSERTACTION/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_INSERTACTION/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="SI2MEASR">
+         <PATH>/THEJUNOD/IG_KITCH_INSERTACTION/I_KITCH_SI2MEASR</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>200</LENGTH>
+      </COLUMN>
+      <COLUMN Name="SI3VALS">
+         <PATH>/THEJUNOD/IG_KITCH_INSERTACTION/I_KITCH_SI3VALS</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+   </TABLE>
+   <TABLE name="IG_KITCH_EMAILACTION">
+      <TABLE-PATH syntax="XPATH">/THEJUNOD/IG_KITCH_EMAILACTION</TABLE-PATH>
+      <COLUMN Name="SubjectID">
+         <PATH>/THEJUNOD/IG_KITCH_EMAILACTION/SubjectID</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>50</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEvent">
+         <PATH>/THEJUNOD/IG_KITCH_EMAILACTION/StudyEvent</PATH>
+         <TYPE>character</TYPE>
+         <DATATYPE>string</DATATYPE>
+         <LENGTH>255</LENGTH>
+      </COLUMN>
+      <COLUMN Name="StudyEventRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_EMAILACTION/StudyEventRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="ItemGroupRepeatKey">
+         <PATH>/THEJUNOD/IG_KITCH_EMAILACTION/ItemGroupRepeatKey</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+      <COLUMN Name="EML1SMT">
+         <PATH>/THEJUNOD/IG_KITCH_EMAILACTION/I_KITCH_EML1SMT</PATH>
+         <TYPE>numeric</TYPE>
+         <DATATYPE>integer</DATATYPE>
+      </COLUMN>
+   </TABLE>
+</SXLEMAP>
